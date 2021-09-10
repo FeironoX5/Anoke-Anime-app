@@ -1,0 +1,56 @@
+name: anokev2
+description: Watch anime for free
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  localstorage: ^4.0.0+1
+  dio: ^4.0.0
+  chewie: ^1.0.0
+  http: ^0.13.3
+  video_player: ^2.0.0
+  localstore: ^1.2.0
+  cloud_firestore: ^1.0.7
+  firebase_core: ^1.2.0
+  cached_network_image: ^2.2.0+1
+  carousel_slider: ^3.0.0
+  flutter_native_splash: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+
+flutter_native_splash:
+  image: assets/preloader.png
+  color: "#7058FF"
+  fit: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - home.png
+    - bookmark.png
+    - folder.png
+    - search.png
+    - dazai.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat/Montserrat-Medium.ttf
+        - asset: assets/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/Montserrat/Montserrat-Bold.ttf
+          weight: 700

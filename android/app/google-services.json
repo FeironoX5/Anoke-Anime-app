@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074566725045",
+    "project_id": "anoke-97a55",
+    "storage_bucket": "anoke-97a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074566725045:android:e1475b1f1df725feb92dfc",
+        "android_client_info": {
+          "package_name": "com.anoke.v2.anokev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074566725045-go05695c4dla0b7igdoal7ujclppne47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsy26J4zMqZ3xqki0sdM_Mnp0Xele2sPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074566725045-go05695c4dla0b7igdoal7ujclppne47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
